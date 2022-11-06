@@ -2,10 +2,27 @@ body {
 	background-color: lightblue;
 }
 
-table {
+.spellingnotes {
 	margin-left: 2em;
 	background-color: white;
 	font-size: 13pt;
+}
+
+
+table.exercisetext, td.exercisetext {
+	margin-left: 2em;
+	background-color: white;
+	font-size: 16pt;
+	text-align: center;
+}
+
+.topicsounds {
+	margin-left: 3em;
+	margin-bottom: 1%;
+	font-family: "Consolas";
+	font-size: 20pt;
+	border: 2px solid;
+	background-color: white;
 }
 
 h1 {
@@ -40,6 +57,11 @@ phon {
 }
 
 iframe {
+	margin-left: 2em;
+	margin-bottom: 2em;
+}
+
+audio {
 	margin-left: 2em;
 	margin-bottom: 2em;
 }

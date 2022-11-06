@@ -20,6 +20,12 @@ phon {
 	letter-spacing: .2rem;
 }
 
+.phon {
+	font-family: "Times New Roman";
+	font-size: 30pt;
+	letter-spacing: .2rem;
+}
+
 .descr {
 	margin-left: 2em;
 	margin-bottom: 2em;

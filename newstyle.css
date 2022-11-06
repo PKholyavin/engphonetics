@@ -13,7 +13,6 @@ table.exercisetext, td.exercisetext {
 	margin-left: 2em;
 	background-color: white;
 	font-size: 16pt;
-	text-align: center;
 }
 
 .topicsounds {
@@ -23,6 +22,7 @@ table.exercisetext, td.exercisetext {
 	font-size: 20pt;
 	border: 2px solid;
 	background-color: white;
+	text-align: center;
 }
 
 h1 {
@@ -62,8 +62,6 @@ iframe {
 }
 
 audio {
-	margin-left: 2em;
-	margin-bottom: 2em;
 }
 
 a:link { text-decoration: none; }

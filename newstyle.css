@@ -26,6 +26,12 @@ table.exercisetext, td.exercisetext {
 	text-align: center;
 }
 
+td.topicsounds {
+	padding-left: 5px;
+	padding-right: 5px;
+	border: none;
+}
+
 h1 {
 	margin-left: 2em;
 	font-family: "Trebuchet MS";

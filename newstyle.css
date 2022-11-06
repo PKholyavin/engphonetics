@@ -13,6 +13,7 @@ table.exercisetext, td.exercisetext {
 	margin-left: 2em;
 	background-color: white;
 	font-size: 16pt;
+	text-align: left;
 }
 
 .topicsounds {

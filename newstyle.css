@@ -30,6 +30,10 @@
 .col-11 {width: 91.66%;}
 .col-12 {width: 100%;}
 
+html {
+	font-size: 20pt;
+}
+
 body {
 	background-color: #00f2fb;
 }
@@ -37,19 +41,24 @@ body {
 .spellingnotes {
 	width: 100%;
 	background-color: white;
-	font-size: 28pt;
+	font-size: 23pt;
 }
 
 
-table.exercisetext, td.exercisetext {
+table.extext {
 	background-color: white;
-	font-size: 28pt;
+	font-size: 23pt;
 	text-align: left;
+	min-width: 7rem;
+}
+
+.extext td {
+	min-width: 7rem;
 }
 
 .topicsounds {
 	font-family: "Consolas";
-	font-size: 35pt;
+	font-size: 30pt;
 	border: 2px solid;
 	background-color: white;
 	text-align: center;
@@ -69,7 +78,7 @@ td.old {
 
 h1 {
 	font-family: "Trebuchet MS";
-	font-size: 45pt;
+	font-size: 40pt;
 	margin: 0px;
 }
 
@@ -78,9 +87,9 @@ p {
 }
 
 phon {
-	font-family: "Consolas";
+	font-family: "Consolas", "monospace";
 	font-weight: normal;
-	font-size: 50pt;
+	font-size: 45pt;
 	letter-spacing: .2rem;
 }
 
@@ -89,23 +98,24 @@ lexset {
 }
 
 .phon {
-	font-family: "Times New Roman";
-	font-size: 50pt;
+	font-family: "Consolas", "monospace";
+	font-size: 45pt;
 	letter-spacing: .2rem;
 }
 
 .descr {
-	font-size: 25pt;
+	font-size: 20pt;
 	line-height: 1.6;
 }
 
 .contents {
 	margin-left: 2em;
-	font-size: 25pt;
+	font-size: 20pt;
 	line-height: 1.6;
 }
 
-iframe {
+iframe.alexvid {
+	height: 15rem;
 }
 
 audio {
@@ -114,6 +124,10 @@ audio {
 
 img {
 	background-color: white;
+}
+
+img.ipa {
+	height: 15rem;
 }
 
 a:link { text-decoration: none; }

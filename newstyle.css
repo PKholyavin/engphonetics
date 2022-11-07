@@ -97,7 +97,7 @@ table.extext {
 }
 
 .topicsounds {
-	font-family: "Consolas";
+	font-family: "Consolas", "monospace";
 	font-size: 30pt;
 	border: 2px solid;
 	background-color: white;
